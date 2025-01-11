@@ -1,0 +1,19 @@
+EBNF
+file           ::= states alphabet transitions final_states
+states         ::= "States:" state { "," state }
+alphabet       ::= "Alphabet:" symbol { "," symbol }
+transitions    ::= "Transitions:" transition { "," transition }
+final_states   ::= "FinalStates:" state { "," state }
+state          ::= "q0" | "q1" | "q2" | "q3" | "q4"
+symbol         ::= "-" | "+" | "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "0"
+transition     ::= state "->" symbol "->" state
+
+BNF
+<file> ::= <states> <alphabet> <transitions> <final_states>
+<states> ::= "States:" <state> | "States:" <state> , <states>
+<alphabet> ::= "Alphabet:" <symbol> | "Alphabet:" <symbol> , <alphabet>
+<transitions> ::= "Transitions:" <transition> | "Transitions:" <transition> , <transitions>
+<final_states> ::= "Final States:" <state> | "Final States:" <state> , <final_states>
+<state> ::= "q0" | "q1" | "q2" | "q3" | "q4" | "p" | "q" | "r"
+<symbol> ::= "-" | "+" | "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+<transition> ::= <state> "->" <symbol> "->" <state>

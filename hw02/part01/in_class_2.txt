@@ -1,0 +1,7 @@
+States: p,q,r
+Alphabet: a
+Transitions:
+    p->a->q
+    q->a->r
+    r->a->q
+Final States: r

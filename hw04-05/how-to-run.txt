@@ -1,0 +1,4 @@
+1. nasm -f obj output.asm -o output.obj
+2. alink -oPE -subsys console -entry start output.obj
+
+3. output.exe (in exemplul de aici, asteapta 2 numere)

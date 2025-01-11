@@ -1,0 +1,12 @@
+FinalStateMachine
+    alphabet: List < String >
+    states: List < String >
+    initial_state: String
+    transitions: List < Transition >
+    finale_states: List < String >
+
+
+Transition
+    value: String
+    source_state: String
+    destination_state: String

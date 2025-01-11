@@ -1,0 +1,5 @@
+keywords: using    int    include    namespace    while    std    endl    return    cin    cout    main    iostream    
+operators: =    >    %    !=    <    
+separators: ,    >>    <<    )    }    {    ;    #    (    
+ID: a    b    temp    
+CONST: 0    

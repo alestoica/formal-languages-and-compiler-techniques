@@ -1,0 +1,5 @@
+keywords: cin    main    cout    return    endl    while    int    
+operators: !=    %    =    
+separators: {    )    (    }    ,    ;    >>    <<    
+ID: temp    b    a    
+CONST: 2    0    
